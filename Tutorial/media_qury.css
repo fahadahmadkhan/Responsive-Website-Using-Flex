@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .header-container,
+    .newsletter-container,
+    .boxes-container,
+    .article,
+    .aside {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    #newsletter form input[type="email"] {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    #newsletter button {
+        width: 80%;
+    }
+}

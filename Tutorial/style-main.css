@@ -1,0 +1,174 @@
+/* Globle */
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    width: 65%;
+}
+
+.aside {
+    width: 30%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Dark Box ackground */
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*  Header */
+
+header {
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+header ul {
+    margin: 0;
+    padding-top: 10px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.nav-active {
+    color: #e8491d;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+s header nav {
+    margin-top: 10px;
+}
+
+header .highlight,
+.current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url("./images/showcase.jpg") no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.showcase-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/* Newsletter */
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter form {
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box img {
+    height: 90px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
